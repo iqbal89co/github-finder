@@ -1,6 +1,6 @@
 import { FaCodepen, FaStore, FaUserFriends, FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useContext, useEffect } from "react/cjs/react.development";
+import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import GithubContext from "../component/context/github/GithubContext";
 import UserRepos from "../component/repos/RepoList";
